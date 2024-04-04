@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+</head>
+<body>
+
+  <section class="navbar-section">
+      <div class="left-navbar">
+        <h2>snap</h2>
+        <ul class="nav-info">
+          <li class="features">
+            <div class="select">
+            <a href="#" id="features">Features</a>
+            <img src="images/icon-arrow-up.svg" alt="" class="arrow-up hidden">
+            <img src="images/icon-arrow-down.svg" alt="" class="arrow-down">
+            </div>
+            <ul class="feature-list hidden">
+              <li><img src="images/icon-todo.svg" alt=""><a href="#"><p>Todo List</p></a></li>
+              <li><img src="images/icon-calendar.svg" alt=""><a href="#"><p>Calender</p></a></li>
+              <li><img src="images/icon-reminders.svg" alt=""><a href="#"><p>Reminders</p></a></li>
+              <li><img src="images/icon-planning.svg" alt=""><a href="#"><p>Planning</p></a></li>
+            </ul>
+          </li>
+          <li class="company">
+            <div class="select">
+            <a href="#" id="company">Company</a>
+            <img src="images/icon-arrow-up.svg" alt="" class="arrow-up hidden">
+            <img src="images/icon-arrow-down.svg" alt="" class="arrow-down">
+          </div>
+            <ul class="company-list hidden">
+              <li><a href="#">History</a></li>
+              <li><a href="#">Our Team</a></li>
+              <li><a href="#">Blog</a></li>
+            </ul>
+          </li>
+          <li id="sub-heading"><a href="#">Carrers</a></li>
+          <li id="sub-heading"><a href="#">About</a></li>
+        </ul>
+      </div>
+
+      <div class="right-navbar">
+        <button class="login-btn">Login</button>
+        <button class="register-btn">Register</button>
+      </div>
+    </section>
+
+    <section class="content-section">
+      <div class="left-section">
+        <div class="top-left">
+          <h1>Make <br> remote work</h1>
+          <p>Get your team in sync, no matter your location. Streamline processes, create team rituals, and watch productivity soar.</p>
+          <button class="learn-btn">Learn more</button>
+        </div>
+        <div class="bottom-left">
+          <img src="images/client-databiz.svg" alt="">
+          <img src="images/client-audiophile.svg" alt="">
+          <img src="images/client-meet.svg" alt="">
+          <img src="images/client-maker.svg" alt="">
+        </div>
+      </div>
+      <div class="right-section">
+        <img src="images/image-hero-desktop.png" alt="" width="300px" height="400px">
+      </div>
+  </section>
+
+  
+  <script src="main.js"></script>
+</body>
+</html>
